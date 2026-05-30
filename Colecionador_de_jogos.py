@@ -6,7 +6,7 @@ def mostrar_menu():
     print("\n===== MENU =====")
     print("1. Cadastrar novo jogo")
     print("2. Listar jogos")
-    print("3. SAIR")
+    print("3. SAIR\n")
 
 
 def cadastrar_jogo():

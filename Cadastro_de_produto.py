@@ -3,7 +3,7 @@ produtos = []
 
 def mostrar_menu():
     print("\n===== MENU =====")
-    print("1. Cadastrar produtos")
+    print("1. Cadastrar produto")
     print("2. Listar produtos")
     print("3. Buscar produto pelo nome")
     print("4. SAIR")
@@ -59,11 +59,11 @@ while True:
 
             for item in produtos:
                 if item["nome"] == produto:
-                    print("Produto encotrado")
+                    print("Produto encontrado")
                     encontrado = True
 
             if not encontrado:
-                print("Produto não encotrado.")
+                print("Produto não encontrado.")
 
     else:
         print("Encerrando o programa...")

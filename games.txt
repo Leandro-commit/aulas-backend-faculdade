@@ -1,0 +1,6 @@
+Mario;Snes
+Zelda;Snes
+Nome: Need for Speed
+;Plataforma: PC, PS4, Xbox One
+Nome: GTA V
+;Plataforma: PC
