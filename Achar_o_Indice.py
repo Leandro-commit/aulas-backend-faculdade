@@ -12,6 +12,6 @@ linguagens = (
 )
 
 i = 0
-while linguagens[i] != "Typescript":
+while linguagens[i] != "Python":
     i += 1
 print(f"Encontramos Python na {i+1}° posição!")
