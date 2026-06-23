@@ -8,8 +8,7 @@ def mostrar_menu():
     print("2. Listar livros")
     print("3. Buscar filme pelo nome")
     print("4. Remover filme")
-    print("5. Editar filme")
-    print("6. SAIR\n")
+    print("5. SAIR\n")
 
 
 def cadastrar_livros():

@@ -1,4 +1,6 @@
-print("Olá, o que deseja comprar:")
+texto = "Olá, o que deseja comprar:"
+print(texto)
+print("-" * len(texto))
 print("1 - Coxinha R$ 5,00")
 print("2 - Pastel R$ 7,00")
 print("3 - Café R$ 4,00")
@@ -8,7 +10,10 @@ print("5 - SAIR")
 total = 0
 
 while True:
-    escolha = int(input("Qual item gostaria de comprar: "))
+    try:
+        escolha = int(input("\nEscolha o item gostaria de comprar: "))
+    except ValueError:
+        print("Digite apenas números!")
 
     if escolha == 5:
         print("Volte sempre...")
